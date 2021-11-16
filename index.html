@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+    //function rotAlert(){
+    //    alert("Rotate your phone !!");
+    //};
+
+    window.addEventListener("orientationchange", function() {
+    if ( window.orientation == 0 || window.orientation == 180){
+        // WHEN IN PORTRAIT MODE
+        //alert("Rotate your phone !!");
+    }
+    else{
+        window.location.href = 'main.html';
+        //alert("Rotate back your phone !!");
+    }
+    }, false);
+</script>
+</head>
+<body>
+    <div>
+        <h1>INSTRUCTIONS</h1> 
+        <p>
+            Choose character.<br/>
+            Avoid bags.<br/>
+            Get Boosters to increase jumping ability.<br/>
+            Collect coins to spend on stalls to regerate stamina.<br/>
+            Hitting bags will decrease stamina, and the third hit will take you to the start.<br/>
+            
+            <h3>Please Rotate Your mobile device to begin the game !!</h3>
+        </p>
+    </div>    
+</body>
+
+</html>
