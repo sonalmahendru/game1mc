@@ -870,7 +870,7 @@ scene("main", () => {
              "top"
          ], "top");
  
-    add([
+    /*add([
         sprite("MainPage"),
         pos(0, 0),
         origin("topleft"),
@@ -878,7 +878,7 @@ scene("main", () => {
         layer("bot"),
         area(),
         "MainPage"
-    ])
+    ])*/
  
      const Play = add([
         sprite("Play"),
@@ -890,7 +890,7 @@ scene("main", () => {
         "Play"
     ])
 
-    go("menu");
+   // go("menu");
 
     onClick("Play", ()=>{
         console.log("play button clicked");
