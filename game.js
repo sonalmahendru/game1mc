@@ -885,7 +885,7 @@ scene("main", () => {
         pos(width()/2-100, height()/2+80),
         origin("topleft"),
         scale(0.7), //for 100x100
-        layer("top"),
+        //layer("top"),
         area(),
         "Play"
     ])
