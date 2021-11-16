@@ -864,12 +864,12 @@ scene("main", () => {
     
     //let BagCollide = true;
     //fullscreen(BagCollide);
-    layers([
+    /*layers([
              "bot",
              "mid",
              "top"
          ], "top");
- 
+ */
     /*add([
         sprite("MainPage"),
         pos(0, 0),
@@ -885,7 +885,7 @@ scene("main", () => {
         pos(width()/2-100, height()/2+80),
         origin("topleft"),
         scale(0.7), //for 100x100
-        layer("top"),
+        //layer("top"),
         area(),
         "Play"
     ])
@@ -893,7 +893,7 @@ scene("main", () => {
    // go("menu");
 
     onClick("Play", ()=>{
-        console.log("play button clicked");
+        //console.log("play button clicked");
         go("menu");
         //fullscreen(true);
     })
