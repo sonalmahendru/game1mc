@@ -893,7 +893,7 @@ scene("main", () => {
    // go("menu");
 
     onClick("Play", ()=>{
-        //console.log("play button clicked");
+        console.log("play button clicked");
         go("menu");
         //fullscreen(true);
     })
